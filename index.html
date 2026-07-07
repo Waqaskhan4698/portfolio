@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Waqas - MERN Stack Developer | BS Software Engineering, COMSATS Vehari | Punjab, Pakistan - Open to Junior/Mid-level roles">
+    <title>Muhammad Waqas | MERN Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Animated Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <img src="logo.jpg" alt="Waqas.dev Logo" class="nav-logo" style="width:42px;height:42px;border-radius:10px;object-fit:cover;border:1.5px solid rgba(108,99,255,0.4);">
+            <span class="brand-name">Waqas.dev</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="hire-btn" id="hire-btn">Hire Me</a>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-overlay"></div>
+        <!-- Developer Image Background -->
+        <div class="hero-img-container">
+            <img src="my_photo.jpg" alt="Muhammad Waqas - Developer" class="hero-dev-img">
+            <div class="hero-img-glow"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for Work
+            </div>
+            <h1 class="hero-title">
+                <span class="greeting">Hello, I'm</span>
+                <span class="name-highlight">Muhammad Waqas</span>
+                <span class="role-text">
+                    <span class="typed-wrapper">
+                        <span id="typed-text"></span><span class="cursor">|</span>
+                    </span>
+                </span>
+            </h1>
+            <p class="hero-desc">
+                Recent BS Software Engineering graduate from COMSATS University Islamabad, Vehari Campus.
+                I design and ship full-stack web apps end-to-end — MongoDB, Express, React, Node.js.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">4</span>
+                    <span class="stat-label">Years Study</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">MERN</span>
+                    <span class="stat-label">Stack Expert</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-num">2026</span>
+                    <span class="stat-label">Graduate</span>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">
+                    <span>View BloodLink Project</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#contact" class="btn-secondary">
+                    <span>Hire Me</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+                <!-- Logo Badge -->
+                <div style="margin-top:24px;display:flex;align-items:center;justify-content:center;gap:14px;">
+                    <img src="logo.jpg" alt="Waqas.dev" style="width:64px;height:64px;border-radius:16px;object-fit:cover;border:2px solid rgba(108,99,255,0.5);box-shadow:0 0 20px rgba(108,99,255,0.3);">
+                    <div style="text-align:left;">
+                        <div style="font-weight:800;font-size:1.1rem;background:linear-gradient(135deg,#f0f4ff,#8b85ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Muhammad Waqas</div>
+                        <div style="font-family:'Fira Code',monospace;font-size:0.8rem;color:#00d4ff;">MERN Stack Developer</div>
+                        <div style="font-size:0.75rem;color:#556070;margin-top:2px;">📍 Punjab, Pakistan</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-icon">👨‍💻</div>
+                    <h3>MERN Stack Developer</h3>
+                    <p>I'm a MERN Stack Developer from Pakistan, graduating in 2026 with a BS in Software Engineering from COMSATS University Islamabad, Vehari Campus.</p>
+                </div>
+                <div class="about-card glass-card featured">
+                    <div class="about-icon">🩸</div>
+                    <h3>BloodLink — Final Year Project</h3>
+                    <p>Built <strong>BloodLink</strong>, an online blood donation & request portal — a full-stack MERN app connecting donors with people in urgent need. Supervised by Dr. Muhammad Tausif.</p>
+                </div>
+                <div class="about-card glass-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>Open to Opportunities</h3>
+                    <p>Looking for Junior / Mid-level MERN Stack Developer roles in government or private sector. Open to freelance, internships & collaboration.</p>
+                </div>
+            </div>
+
+            <!-- Education Timeline -->
+            <div class="education-block glass-card" style="margin-top:32px;padding:32px 36px;">
+                <div class="section-tag" style="display:inline-block;margin-bottom:20px;">🎓 Education</div>
+                <div style="display:flex;align-items:flex-start;gap:24px;">
+                    <div style="min-width:120px;font-family:'Fira Code',monospace;font-size:0.82rem;color:#8b85ff;font-weight:600;">2022 — 2026</div>
+                    <div>
+                        <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:6px;">BS Software Engineering</h3>
+                        <p style="color:var(--text-secondary);font-size:0.92rem;">COMSATS University Islamabad, Vehari Campus</p>
+                        <p style="color:var(--text-muted);font-size:0.85rem;margin-top:4px;">Final Year Project: <strong style="color:var(--text-primary);">BloodLink</strong> — Supervised by Dr. Muhammad Tausif</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-skill="88">
+                    <div class="skill-icon">⚛️</div>
+                    <div class="skill-info">
+                        <h4>React.js / JavaScript (ES6+)</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:88%"></div></div>
+                        <span class="skill-pct">88%</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-skill="85">
+                    <div class="skill-icon">🟢</div>
+                    <div class="skill-info">
+                        <h4>Node.js / Express.js</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:85%"></div></div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-skill="82">
+                    <div class="skill-icon">🍃</div>
+                    <div class="skill-info">
+                        <h4>MongoDB</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:82%"></div></div>
+                        <span class="skill-pct">82%</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-skill="80">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-info">
+                        <h4>HTML5 / CSS3 / Tailwind CSS</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-skill="78">
+                    <div class="skill-icon">🔌</div>
+                    <div class="skill-info">
+                        <h4>REST APIs / JWT Auth</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:78%"></div></div>
+                        <span class="skill-pct">78%</span>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-skill="75">
+                    <div class="skill-icon">🛠️</div>
+                    <div class="skill-info">
+                        <h4>Git / GitHub / Postman / VS Code</h4>
+                        <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Project</span>
+                <h2 class="section-title">BloodLink</h2>
+                <div class="title-underline"></div>
+                <p class="section-desc">Online Blood Donation & Request Portal — Final Year Project</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card featured-project">
+                    <div class="project-badge">Final Year Project</div>
+                    <div class="project-img-placeholder p1">
+                        <span class="project-emoji">🩸</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>BloodLink — Blood Donation Portal</h3>
+                        <p>A full-stack MERN application that connects blood donors with people in urgent need. Built solo from database schema design to a responsive, accessible frontend UI.</p>
+                        <ul style="list-style:none;margin-bottom:16px;padding:0;">
+                            <li style="color:var(--text-secondary);font-size:0.9rem;padding:4px 0 4px 18px;position:relative;"><span style="position:absolute;left:0;color:#6c63ff;">▸</span> Donor registration & searchable donor directory</li>
+                            <li style="color:var(--text-secondary);font-size:0.9rem;padding:4px 0 4px 18px;position:relative;"><span style="position:absolute;left:0;color:#6c63ff;">▸</span> Blood request creation and management workflow</li>
+                            <li style="color:var(--text-secondary);font-size:0.9rem;padding:4px 0 4px 18px;position:relative;"><span style="position:absolute;left:0;color:#6c63ff;">▸</span> Admin dashboard for monitoring requests & donors</li>
+                            <li style="color:var(--text-secondary);font-size:0.9rem;padding:4px 0 4px 18px;position:relative;"><span style="position:absolute;left:0;color:#6c63ff;">▸</span> JWT-based authentication & secure sessions</li>
+                            <li style="color:var(--text-secondary);font-size:0.9rem;padding:4px 0 4px 18px;position:relative;"><span style="position:absolute;left:0;color:#6c63ff;">▸</span> 14+ UX & system architecture diagrams pre-build</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">JWT Auth</span>
+                            <span class="tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-links" style="margin-top:16px;">
+                            <a href="https://github.com/Waqaskhan4698" target="_blank" class="proj-btn">GitHub →</a>
+                            <a href="#" class="proj-btn outline">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder p2" style="min-height:180px;">
+                        <span class="project-emoji">🏗️</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tech Stack Breakdown</h3>
+                        <div style="display:flex;flex-direction:column;gap:10px;margin-top:4px;">
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Frontend</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">React + Tailwind CSS</span></div>
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Backend</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">Node.js + Express</span></div>
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Database</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">MongoDB</span></div>
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Auth</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">JWT Sessions</span></div>
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Role</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">Solo Full-Stack Dev</span></div>
+                            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:rgba(108,99,255,0.06);border-radius:8px;font-size:0.85rem;"><span style="color:var(--text-secondary);">Supervisor</span><span style="color:#00d4ff;font-family:'Fira Code',monospace;">Dr. Muhammad Tausif</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder p3" style="min-height:140px;">
+                        <span class="project-emoji">🔜</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>More Projects Coming</h3>
+                        <p>Currently working on more MERN stack projects. Follow my GitHub for updates!</p>
+                        <div class="project-tags">
+                            <span class="tag">MERN Stack</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <div class="project-links" style="margin-top:16px;">
+                            <a href="https://github.com/Waqaskhan4698" target="_blank" class="proj-btn">Follow on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Offer</span>
+                <h2 class="section-title">My Services</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card">
+                    <div class="service-number">01</div>
+                    <div class="service-icon">🌐</div>
+                    <h3>MERN Stack Development</h3>
+                    <p>Full-stack web applications built with MongoDB, Express, React & Node.js — from idea to deployment.</p>
+                    <div class="service-tags">
+                        <span>React</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon">🔌</div>
+                    <h3>REST API Development</h3>
+                    <p>Scalable, secure REST APIs with JWT authentication, proper routing, and database integration.</p>
+                    <div class="service-tags">
+                        <span>Express.js</span><span>JWT</span><span>REST API</span>
+                    </div>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon">🎨</div>
+                    <h3>Frontend Development</h3>
+                    <p>Responsive, accessible & beautiful UIs using React.js, HTML5, CSS3, and Tailwind CSS.</p>
+                    <div class="service-tags">
+                        <span>React.js</span><span>Tailwind</span><span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon">🗃️</div>
+                    <h3>Database Design</h3>
+                    <p>MongoDB schema design, data modeling, queries and optimization for web applications.</p>
+                    <div class="service-tags">
+                        <span>MongoDB</span><span>Postman</span><span>Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-desc">Ready to start your next project? Let's talk!</p>
+            </div>
+
+            <!-- Contact Cards -->
+            <div class="contact-cards">
+                <!-- LinkedIn Card -->
+                <div class="contact-card linkedin-card glass-card" onclick="window.open('https://linkedin.com/in/muhammad-waqas-6227153b0', '_blank')">
+                    <div class="contact-card-bg"></div>
+                    <div class="contact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="36" height="36">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>LinkedIn</h3>
+                        <p>Professional Network</p>
+                        <span class="contact-handle">muhammad-waqas-6227153b0</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </div>
+                    <div class="card-hover-glow linkedin-glow"></div>
+                </div>
+
+                <!-- GitHub Card -->
+                <div class="contact-card github-card glass-card" onclick="window.open('https://github.com/Waqaskhan4698', '_blank')">
+                    <div class="contact-card-bg"></div>
+                    <div class="contact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="36" height="36">
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>GitHub</h3>
+                        <p>Open Source Projects</p>
+                        <span class="contact-handle">@Waqaskhan4698</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </div>
+                    <div class="card-hover-glow github-glow"></div>
+                </div>
+
+                <!-- WhatsApp Card -->
+                <div class="contact-card whatsapp-card glass-card" onclick="window.open('https://wa.me/923039437398', '_blank')">
+                    <div class="contact-card-bg"></div>
+                    <div class="contact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="36" height="36">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>WhatsApp</h3>
+                        <p>Quick Response</p>
+                        <span class="contact-handle">+92 303 9437398</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </div>
+                    <div class="card-hover-glow whatsapp-glow"></div>
+                </div>
+
+                <!-- Email Card -->
+                <div class="contact-card email-card glass-card" onclick="window.location.href='mailto:waqaskhan4698@gmail.com'">
+                    <div class="contact-card-bg"></div>
+                    <div class="contact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="36" height="36">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <div class="contact-card-content">
+                        <h3>Email</h3>
+                        <p>Business Inquiries</p>
+                        <span class="contact-handle">waqaskhan4698@gmail.com</span>
+                    </div>
+                    <div class="contact-card-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </div>
+                    <div class="card-hover-glow email-glow"></div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper glass-card">
+                <h3>📍 Punjab, Pakistan &nbsp;|&nbsp; Send a Message</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Project Inquiry / Job Opportunity">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2L15 22 11 13 2 9l20-7z"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logo.jpg" alt="Waqas.dev" style="width:32px;height:32px;border-radius:8px;object-fit:cover;border:1px solid rgba(108,99,255,0.4);">
+                <span>Waqas.dev</span>
+            </div>
+            <p class="footer-copy">© 2025 Muhammad Waqas | Punjab, Pakistan 🇵🇰 Crafted with ❤️ and lots of ☕</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
